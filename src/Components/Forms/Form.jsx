@@ -15,8 +15,15 @@ function FormOut() {
           />
 
           <div className="notes-importance-level distance">
-            Enter Importance level
-            <input type="range" name="" id="" className="formInput " />
+            <label htmlFor="">
+              Importance Level:
+              <select name="" id="">
+                <option value="">select</option>
+                <option value="Important">Important</option>
+                <option value="Normal">Normal</option>
+                <option value="Casual">Casual</option>
+              </select>
+            </label>
           </div>
           <textarea
             name=""
